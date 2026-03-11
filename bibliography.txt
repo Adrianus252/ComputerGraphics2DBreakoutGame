@@ -1,0 +1,7 @@
+Reference to used to ressources used in the game like audio and image files. 
+
+Textures:
+https://opengameart.org/content/breakout-brick-breaker-tile-set-free
+
+Sound Effects:
+https://pixabay.com/sound-effects/search/game/
