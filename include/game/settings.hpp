@@ -13,10 +13,10 @@ saves and loads user preferences to/from a JSON file.when the game starts
 
 struct GameSettings {
 
-    bool use_textures = false; // if textures or normal colors are used
-    bool use_gradient_brick_colors = true; // if gradient brick colors are used (only applies when textures are off)
+    bool use_textures = true; // if textures or normal colors are used
+    bool use_gradient_brick_colors = false; // if gradient brick colors are used (only applies when textures are off)
     float paddle_speed_percent = 50.0f; // percentage of base paddle speed (0% to 100%)
-    bool show_information_window = true; // disable/enable information window
+    bool show_information_window = false; // disable/enable information window
     bool sound_enabled = true; // disable/enable all game sounds
 
     // load settings from file, or use defaults if file doesnt exist
